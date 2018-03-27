@@ -5,17 +5,22 @@ from __future__ import print_function
 
 
 def is_odd(a_number):
+    x = float(a_number)
+    if x % 2 == 0:
+        return False
+    else:
+        return True
     """Return True if a_number is odd, and False if a_number is even.
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-    pass
+    
 
 
 def fix_it(moves=True, should_move=True):
     """Decide what to do.
 
-    Using the engineering flowchart for the rules, return the apropriate
+    Using the engineering flowchart for the rules, return the appropriate
     response to the input parameters.
     Use conditional statements: if, else, elif etc.
     This function should return either:
@@ -23,7 +28,13 @@ def fix_it(moves=True, should_move=True):
     "Duct Tape"
     "No Problem"
     """
-    pass
+    if:
+
+    else:
+
+    elif:
+
+    
 
 
 def loops_1a():

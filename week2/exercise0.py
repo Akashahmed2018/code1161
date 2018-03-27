@@ -8,14 +8,15 @@ def add_5(a_number):
     """Return a number that is 5 bigger than number given.
 
     This isn't a trick!
-    First thing to do is to remove the pass. That's just tellign python that
+    First thing to do is to remove the pass. That's just telling python that
     the empty block is intentional - it's python's "this page is intentionally
-    left blank"
+    left blank
     Then you need to:
         return a_number plus five
-    except expressed in python, not english
-    """
-    pass
+    except expressed in python, not english"""
+    return a_number + 5
+
+
 
 
 def adder(a_number, another_number):
@@ -23,7 +24,8 @@ def adder(a_number, another_number):
 
     Same as above, but with any two numbers.
     """
-    pass
+    return a_number + another_number
+
 
 
 def shout(a_string):
@@ -34,7 +36,7 @@ def shout(a_string):
     or in any of the million places that google will give you.
     "python make a string uppercase" is a good starting search query.
     """
-    pass
+    return a_string.upper()
 
 
 def really_shout(a_string):
@@ -44,7 +46,7 @@ def really_shout(a_string):
     from above.
     Look up how to 'concatinate' strings to make this happen.
     """
-    pass
+    return a_string.upper() + '!'
 
 
 def minitest(f, args, expected):
