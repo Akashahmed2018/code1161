@@ -17,7 +17,7 @@ def greet(name="Towering Timmy"):
     return a string of "Hello" and the name argument.
     E.g. if given as "Towering Timmy" it should return "Hello Towering Timmy"
     """
-    pass
+    return 'Hello '+name
 
 
 def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
@@ -26,7 +26,7 @@ def three_counter(input_list=[1, 4, 3, 5, 7, 1, 3, 2, 3, 3, 5, 3, 7]):
     Return an integer.
     TIP: the test will use a different input_list, so don't just return 5
     """
-    pass
+    return input_list.count(3)
 
 
 def fizz_buzz():
@@ -44,7 +44,16 @@ def fizz_buzz():
     if it is. E.g. [1, 2, "Fizz", 4, "Buzz", "Fizz", 7, ...]
     """
     fizzBuzzList = []
-    # your code here
+    for i in range(1,101):
+        fizzBuzzList=fizzBuzzList+list(i)
+        i=i+1
+        print(fizzBuzzList)
+        for i in range(3,100,3):
+            print('Fizz')
+        for i in range(5,101,5):
+            print('Buzz')
+        for i in range(15,100,15):
+            print('FizzBuzz')
     return fizzBuzzList
 
 
@@ -54,10 +63,10 @@ def put_behind_bars(input_string="very naughty boy"):
     Given any string, interleave it with pipes (| this character)
     e.g. "very naughty boy" should return the string
     "|v|e|r|y| |n|a|u|g|h|t|y| |b|o|y|"
-    TIP: conside using the 'join' method in Python.
+    TIP: consider using the 'join' method in Python.
     TIP: make sure that you have a pipe on both ends of the string.
     """
-    pass
+    return '|'+ print(put_behind_bars("very naughty boy"),sep='|')+'|'
 
 
 def pet_filter(letter="a"):
@@ -70,7 +79,10 @@ def pet_filter(letter="a"):
             "bali cattle", "gayal", "turkey", "goldfish", "rabbit", "koi",
             "canary", "society finch", "fancy mouse", "siamese fighting fish",
             "fancy rat and lab rat", "mink", "red fox", "hedgehog", "guppy"]
-    pass
+    pets=pets+[a]
+    for i in range(len(pets))
+        print(i)
+    return pets[1,4,6,8,11,13,18,19,20,21,22,25,26,27,28,30,32,33,34]
 
 
 def best_letter_for_pets():
@@ -81,7 +93,7 @@ def best_letter_for_pets():
     """
     import string
     the_alphabet = string.ascii_lowercase
-    pass
+    
 
 
 def make_filler_text_dictionary():
@@ -113,7 +125,8 @@ def make_filler_text_dictionary():
     """
     
     import requests
-    return
+    len(make_filler_text_dictionary)
+    return {3,4,5,6,7}
 
 
 def random_filler_text(number_of_words=200):
@@ -128,7 +141,8 @@ def random_filler_text(number_of_words=200):
         see line 77 of week4/hangman_leadboard.py for an example.
     """
     import random
-    pass
+    print(number_of_words.random(1,200),sep=' ')
+    return 
 
 
 def fast_filler(number_of_words=200):
@@ -144,7 +158,8 @@ def fast_filler(number_of_words=200):
     into and out of the file. Be careful when you read it back in, it'll
     convert integer keys to strings.
     """
-    pass
+    import os
+
 
 
 if __name__ == '__main__':
