@@ -1,9 +1,10 @@
-"""Tidy up this file.
+"""
+Commenting skills:
 
-This file runs, but it's a mess!
-Go through it and change it until there are no more linter errors or warnings.
-Make sure that your code still runs without any errors by pressing
-[ctrl]+[shift]+[b] as often as you think you need to.
+TODO: above every line of code comment what you THINK the line below does.
+TODO: execute that line and write what actually happened next to it.
+
+See example for first print statement
 """
 from __future__ import division
 from __future__ import print_function
